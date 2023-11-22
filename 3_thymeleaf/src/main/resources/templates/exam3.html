@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="st1.css">
+</head>
+<body>
+	<h3 align="center">thymeleaf exam3</h3>
+	
+	<table width="400" align="center" border="1">
+		<tr>
+			<td colspan="3" align="center" th:text="${Name}"/>
+		</tr>
+		
+		<tr>
+			<td>編號</td>
+			<td>姓名</td>
+			<td>年紀</td>
+		</tr>
+		<tr>
+			<td th:text="${USER.id}"></td>
+			<td th:text="${USER.name}"></td>
+			<td th:text="${USER.age}"></td>
+		</tr>
+		
+	</table>
+	
+</body>
+</html>

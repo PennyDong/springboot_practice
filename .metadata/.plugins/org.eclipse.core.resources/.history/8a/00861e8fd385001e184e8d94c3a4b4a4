@@ -1,0 +1,12 @@
+package com.example.demo.pojo;
+
+public class member {
+
+	
+	private Integer id;
+	private String username;
+	private String password;
+	private String name;
+	private String phone;
+	private String mobile;
+}

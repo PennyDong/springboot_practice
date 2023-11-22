@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="st1.css">
+</head>
+<body>
+<h3>welcome Spring Boot</h3>
+<a href="hello">hello</a>
+<hr>
+<img src="images/IMG_2844.jpg">
+</body>
+</html>

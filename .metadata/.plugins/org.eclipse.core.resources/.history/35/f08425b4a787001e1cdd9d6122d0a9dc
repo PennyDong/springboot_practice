@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table width="400" align="center" border="1">
+		<tr >
+			<td colspan="7" align="center" th:text="${memberData}"></td>
+		</tr>
+		<tr>
+			<td>id</td>
+			<td>name</td>
+			<td>username</td>
+			<td>password</td>
+			<td>address</td>
+			<td>phone</td>
+			<td>mobile</td>
+		</tr>
+		
+		<tr th:each="memberList:${memberList}" >
+			<td th:text="${memberList.id}"></td>
+			<td th:text="${memberList.name}"></td>
+			<td th:text="${memberList.username}"></td>
+			<td th:text="${memberList.password}"></td>
+			<td th:text="${memberList.address}"></td>
+			<td th:text="${memberList.phone}"></td>
+			<td th:text="${memberList.mobile}"></td>
+		</tr>
+	</table>
+</body>
+</html>

@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.container {
+  display: flex;
+}
+
+.half-width {
+  flex: 1;
+  border: 1px solid black; /* 可以根據需要加上邊框 */
+}

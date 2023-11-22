@@ -1,0 +1,5 @@
+#連接SQL
+
+spring.datasource.url=jdbc:mysql://localhost3306/company
+spring.datasource.username=root
+spring.datasource.password=m9yqv366

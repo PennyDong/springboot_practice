@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>home</h3>
+	<a href="exam1">exam1</a><br>
+	<a href="exam2">exam2</a><br>
+</body>
+</html>

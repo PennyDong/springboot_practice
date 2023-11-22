@@ -1,0 +1,3 @@
+#連結jdbc
+
+spring.datasource.url=jdbc:/mysql:..localhost3306/company

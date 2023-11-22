@@ -1,0 +1,17 @@
+INDEX VERSION 1.134
+C:\gjun_spboot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2799534359.index
+\2_jspMybatisEx\src\main\java
+C:\gjun_spboot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2894516874.index
+\session02-spring-webmvc\src\main\java
+C:\gjun_spboot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2313939264.index
+\session02-spring-webmvc\src\main\java
+C:\gjun_spboot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2793311365.index
+\chatBootJstl\src\main\java
+C:\gjun_spboot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3168121503.index
+\chatBootJstl-1\src\main\java
+C:\gjun_spboot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1223971026.index
+\1_jpaEx\src\main\java
+C:\gjun_spboot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2699605860.index
+\chatBoot\src\main\java
+C:\gjun_spboot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3174862159.index
+\chatBoot\src\main\java

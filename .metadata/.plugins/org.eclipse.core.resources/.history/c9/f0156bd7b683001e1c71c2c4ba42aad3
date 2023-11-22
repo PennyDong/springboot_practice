@@ -1,0 +1,7 @@
+#連線到mysql
+spring.datasource.url=jdbc:mysql://localhost3306/company
+spring.datasource.username=root
+spring.datasource.password=m9yqv366
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+

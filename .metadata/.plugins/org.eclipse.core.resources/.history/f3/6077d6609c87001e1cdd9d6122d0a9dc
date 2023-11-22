@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="htt[://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3 align="center">thymeleaf exam3</h3>
+	
+	<table width="400" align="center" border="1">
+		<tr>
+			<td colspan="2" align="center" th:text="${Name}"/>
+		</tr>
+	</table>
+	
+</body>
+</html>

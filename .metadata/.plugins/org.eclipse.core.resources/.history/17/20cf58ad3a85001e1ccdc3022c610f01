@@ -1,0 +1,10 @@
+#連線到mysql
+spring.datasource.url=jdbc:mysql://localhost3306/company
+spring.datasource.username=root
+spring.datasource.password=m9yqv366
+spring.datas.driver-class-name=com.mysql.cj.jdbc.Driver
+
+
+#設定JSP網頁位置
+spring.mvc.view.prefix=/WEB-INF/jsp/
+spring.mvc.view.suffix=.jsp
