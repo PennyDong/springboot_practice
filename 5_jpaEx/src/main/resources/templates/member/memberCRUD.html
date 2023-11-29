@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<table>
+		<tr>
+			<td><h3 th:text=${session.User.name}>Name</h3></td>
+		</tr>
+		
+		<tr>
+			<td>name</td>
+			<td>username</td>
+			<td>password</td>
+		</tr>
+		
+		<tr th:each="userList : ${session.userList}">
+			<td th:text="${userList.getName()}">name</td>
+			<td th:text="${userList.getUsername}">username</td>
+			<td th:text="${userList.getPassword}">password</td>
+		</tr>
+	</table>
+	
+	<a href="/index">登出</a>
+</body>
+</html>

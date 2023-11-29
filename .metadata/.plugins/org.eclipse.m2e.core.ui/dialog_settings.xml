@@ -95,6 +95,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\gjun_spboot\GuessGameBackEnd"/>
 			<item value="C:\Users\sing0\OneDrive\桌面\session02-springmvc"/>
 		</list>
 		<list key="projectNameTemplate">

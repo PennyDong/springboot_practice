@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../CSS/form_style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="left-half" >
+			<form action="addChat" method="post">
+				<table  border="1">
+					<tr align="center">
+						<td colspan="3"><h3>我要留言</h3></td>
+					</tr>
+					<tr>
+						<td>留言者</td>
+						<td><input type="text" name="name"></td>
+					</tr>
+					<tr>
+						<td>主題</td>
+						<td>
+						<select name="subject">
+							<option value="help">求助</option>
+							<option value="share">分享經歷</option>
+							<option value="answer">回覆</option>
+							<option value="talk">隨意聊聊</option>
+						</select>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2"><h5>我想說的話:</h5></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<textarea name="content" cols="50" rows="8" style="resize:none"; required></textarea>
+						</td>
+					</tr>
+					<tr align="center">
+						<td colspan="2">
+							<input type="submit" value="送出">
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		
+		<div class="right-half" >
+			
+				<table border="1" width="500">
+					<tr>
+						<td width=20%>留言者</td>
+						<td width=20%>主題</td>
+						<td width=60%>內容</td>
+					</tr>
+					<tr th:each="chat : ${chatList}">
+						<td th:text="${chat.getName()}">name</td>
+						<td th:text="${chat.getSubject()}">subject</td>
+						<td th:text="${chat.getContent()}">content</td>
+					</tr>
+				</table>
+			
+		</div>
+</div>
+</body>
+</html>

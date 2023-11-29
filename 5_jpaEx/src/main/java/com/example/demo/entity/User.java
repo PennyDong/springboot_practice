@@ -12,6 +12,17 @@ import lombok.Data;
 @Table(name="User")
 public class User {
 	
+	public User(String name2, String username2, String password2) {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	public User() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;

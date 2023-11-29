@@ -1,12 +1,25 @@
 @charset "UTF-8";
 
-.container {
-  width: 100%; /* 設定容器寬度 */
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        width: 100%;
+    }
+
+    .left-half,
+    .right-half {
+        width: 50%;
+    }
 }
 
-.left-half, .right-half {
-  width: 50%;
-  float: left;
-  box-sizing: border-box; /* 讓寬度包含內邊距和邊框 */
-  /* border: 1px solid black; 可以根據需要加上邊框 */
+
+
+/* 假設當視窗寬度小於 768px 時，將表格改為上下顯示 */
+@media screen and (max-width: 768px) {
+    .left-half, .right-half {
+        width: 100%; /* 讓兩個區塊佔滿整個寬度 */
+        float: none; /* 取消浮動 */
+    }
 }
